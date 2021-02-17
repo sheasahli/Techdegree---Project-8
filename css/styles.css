@@ -2,20 +2,40 @@
 
 * {
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
     position: relative;
+    max-width: 1980px;
+    background-color: #F5F5F5;
+    color: #495359;
+    margin: auto;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px 25px;
+    text-align: center;
 }
 
 /* --- GRID LAYOUT ----- */
 
 .grid-container {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 25px;
+    margin: 25px;
+    
 }
 
 .card {
-
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    height: 200px;
 }
 
 /* --- OVERLAY ----- */
