@@ -7,7 +7,6 @@
 
 body{
     position: relative;
-    max-width: 1980px;
     background-color: #F5F5F5;
     color: #495359;
     margin: auto;
@@ -71,7 +70,7 @@ p {
 
 /* --- OVERLAY ----- */
 
-overlay{
+.overlay {
     postion: absolute;
     top: 0;
     left: 0;
