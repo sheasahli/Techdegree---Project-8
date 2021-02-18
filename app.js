@@ -54,7 +54,7 @@ fetch(urlAPI)
                 <h2 class="name">${name.first} ${name.last}</h2>
                 <p class="email">${email}</p>
                 <p class="address">${city}</p>
-                <hr/>
+                <hr />
                 <p>${phone}</p>
                 <p class="address">${street.name} ${street.number}, ${state} ${postcode}</p>
                 <p>Birthday: ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>

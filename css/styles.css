@@ -122,9 +122,7 @@ overlay{
         font-size: 0.75em;
     }
 
-    .card .avatar {
-        margin: 0px 20px;
-    }
+  
 
     .grid-container {
         max-width: 1700px;
